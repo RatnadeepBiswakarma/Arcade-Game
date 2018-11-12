@@ -1,0 +1,132 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+html {
+    padding: 0;
+    margin: 0;
+}
+#congo {
+    display: block;
+    font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+    font-size: 32px;
+}
+input[type=button], button {
+    background-color: rgb(255, 89, 89);
+    border: 1px solid grey;
+    border-radius: 5px;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-family: 'Roboto' Arial;
+    padding: 15px;
+    width: 140px;
+    color: white;
+    box-shadow: 5px 5px 15px grey;
+    cursor: pointer;
+    margin: 20px;
+}
+input[type=button]:hover {
+    background-color: grey;
+}
+a {
+    text-decoration: none;
+    font-family: 'Roboto' Arial;
+    color: white;
+}
+
+
+#modal_win {
+    position: absolute;
+    background-color: white;
+    display: none;
+    z-index: 100;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+#congo {
+    color: rgb(255, 89, 89);
+    padding: 0;
+    margin: 150px auto 0 auto;
+    font-size: 50px;
+    font-style: italic;
+}
+#img>img {
+    width: 350px;
+    height: auto;
+    padding: 0;
+    margin: 0;
+}
+#score {
+    font-family: Arial;
+    color: green;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes fade {
+    0% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+#modal_loader {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    display: 'block';
+    z-index: 100;
+    background-color: #FFFFFF;
+    animation: fade 2s linear;
+}
+
+#modal_loader>h3 {
+    font-family: Arial;
+    color: #696868;
+    font-size: 18px;
+}
+
+#loaderOne {
+    font-size: 40px;
+    width: 50px;
+    height: 50px;
+    border-width: 10px;
+    border-style: solid dotted dotted solid;
+    border-color: green;
+    margin: 20% auto auto auto;
+    transform: translateY(-50px);
+    border-radius: 50%;
+    animation: rotate 2s linear infinite;
+}
+
+#cite {
+    position: fixed;
+    margin-left: 50%;
+    color: grey;
+    bottom: 0;
+    right: 0;
+    font-size: 20px;
+    margin-right: 20px;
+    z-index: 200;
+}
+#coder>span {
+    position: fixed bottom;
+    color: red;
+    font-size: 20px;
+}
