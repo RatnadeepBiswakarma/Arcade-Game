@@ -3,6 +3,10 @@
 ## About
     Classic Arcade Game Project of Udacity. This project was given for the front-end nanodegree students.
 
+## Live Demo
+See it live here http://ratnadeepbiswakarma.me/Arcade-Game/
+
+
 ## Rules of Game
     If you collide with any of the bugs, it will decrease one life and bring you back to the default position.
     If you reach to the river, 50 points will be added to your score.
