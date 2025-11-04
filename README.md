@@ -4,7 +4,7 @@
     Classic Arcade Game Project of Udacity. This project was given for the front-end nanodegree students.
 
 ## Live Demo
-See it live here https://ratnadeep-arcade-game.netlify.com/
+See it live here https://ratnadeep-arcade-game.netlify.app/
 
 
 ## Rules of Game
